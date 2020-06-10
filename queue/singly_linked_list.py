@@ -40,6 +40,7 @@ class LinkedList:
             self.head = self.head.get_next()
 
         return data
+
     def remove_tail(self):
         if not self.tail:
             return None
